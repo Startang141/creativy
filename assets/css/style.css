@@ -39,9 +39,60 @@ nav{
     text-decoration: none;
 }
 
+.nav-link.active{
+    font-weight: 600;
+    border-bottom: 3px solid #2356D9;
+}
+
 .btn-secondary{
     border: 2px solid #2356D9;
     color: #2356D9;
     padding: 9px 19px;
     border-radius: 50px;
+}
+
+.hero-heading{
+    margin-top: 230px;
+}
+
+.hero-heading h1{
+    font-size: 48px;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.hero-heading p{
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 24px;
+    color: #535252;
+}
+.btn-primary{
+    border: 3px solid #2356D9;
+    background-color: #2356D9;
+    color: #fff;
+    padding: 18px 43px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px #dad8d8;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+}
+
+.hero-ilus{
+margin-top: 110px;
+position: relative;
+}
+
+.hero-ilus img{
+right: 0;
+position: absolute;
+}
+
+img.play{
+    position: absolute;
+    right: 380px;
+    bottom: -100px;
 }
