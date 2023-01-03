@@ -3,10 +3,45 @@
 * {
     font-family: "Montserrat";
     margin: 0;
-    padding: 0;
+    padding: 0;;
 }
 
 .container{
     width: 1140px;
-    margin: auto 0;
+    margin: auto auto;
+}
+.nav-brand img{
+    margin-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    margin-right:  48px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: #242424;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    border: 2px solid #2356D9;
+    color: #2356D9;
+    padding: 9px 19px;
+    border-radius: 50px;
 }
