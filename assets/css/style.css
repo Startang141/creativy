@@ -104,6 +104,7 @@ img.play{
     margin-right: auto;
     background-color: #2356D9;
     border-radius: 25px;
+    box-shadow: 0 10px 20px #b5b2b2;
 }
 
 .row-4-col {
@@ -136,10 +137,6 @@ img.play{
     justify-content: space-between;
 }
 
-/* .feature-one-ilus img{
-    right: 12px;
-} */
-
 .heading-ft-one{
     margin-top: 50px;
     margin-left: 150px;
@@ -167,4 +164,45 @@ img.play{
 .heading-ft-one p{
     font-size: 20px;
     margin-top: 24px;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 215px auto ;
+}
+
+.card-rs{
+    background-color: #2356D9;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 17px ;
+    margin-top: 32px;
+    box-shadow: 0 5px 20px #d3d3d3;
+}
+
+.heading-reason h1{
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.heading-reason h2{
+    font-size: 35px;
+    line-height: 35px;
+    margin-left: 38px;
+    color: #fff;
+}
+
+.rs-ilus{
+    position: relative;
+}
+
+.rs-ilus img{
+    position: absolute;
+}
+
+img.arrow{
+    left: -70px;
+    top: -200px;
 }
