@@ -3,7 +3,7 @@
 * {
     font-family: "Montserrat";
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 
 .container{
@@ -302,4 +302,130 @@ img.arrow{
     border-radius: 10px;
     margin-top: 36px;
     margin-left: 5px;
+}
+
+.row-card-fav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.favorite{
+    margin-top: 144px;
+}
+
+.heading-favorite{
+    text-align: center;
+    margin-bottom: 81px;
+}
+
+.heading-favorite h1{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.heading-favorite p{
+    font-size: 20px;
+}
+.row-card-fav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.card-favorite{
+    width: 352px;
+    box-shadow: 2px 2px 4px #c9c9c9;
+    border-radius: 10px;
+}
+
+.img-fav img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+img.rotatethis{
+    width: 100%;
+    object-fit: cover;
+}
+
+.star-rate{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.container-fav{
+    margin-left: 20px;
+}
+
+.star-rate p{
+    margin-left: 16px;
+    font-size: 20px;
+    color: #535353;
+}
+
+.heading-card-favorite{
+    margin-top: 16px;
+    margin-bottom: 25px;
+    color: #2356D9;
+}
+.rate-card{
+    display: flex;
+    align-items: center;
+}
+.count-pro{
+    display: flex;
+    color: #2356D9;
+}
+
+.count-pro h3{
+    margin-left: 9px;
+}
+
+.count-time{
+    display: flex;
+    color: #2356D9;
+    margin-left: 30px;
+}
+
+.count-time h3{
+    margin-left: 9px;
+}
+
+.bottom-card{
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn-fav{
+    background-color: #2356D9;
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.btn-fav:hover{
+    background-color: #ffffff;
+    padding: 12px 20px;
+    color: #2356D9;
+    border: 1px solid #2356D9;
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.bottom-card{
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.bottom-card h4{
+    color: #979797;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bottom-card h3{
+    color: #E7B60B;
+    font-size: 20px;
 }
