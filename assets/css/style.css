@@ -429,3 +429,30 @@ img.rotatethis{
     color: #E7B60B;
     font-size: 20px;
 }
+
+.jumbotron {
+    width: 992px;
+    margin-top: 185px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-jumbotron{
+    margin-top: 50px;
+}
+.heading-jumbotron h1{
+    font-size: 36px;
+    width: 70%;
+}
+
+h1 span{
+    color: #2356D9;
+}
+
+.heading-jumbotron p{
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+}
