@@ -51,6 +51,13 @@ nav{
     border-radius: 50px;
 }
 
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #2356D9;
+    padding: 9px 19px;
+    border-radius: 50px;
+}
+
 .hero-heading{
     margin-top: 230px;
 }
@@ -109,8 +116,8 @@ img.play{
 
 .row-4-col {
     display: flex;
-    padding: 41px 155px;
-    justify-content: space-around;
+    padding: 32px 155px;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -205,4 +212,94 @@ img.play{
 img.arrow{
     left: -70px;
     top: -200px;
+}
+
+.heading-price{
+    text-align: center;
+}
+
+.heading-price h1{
+    font-size: 40px;
+}
+
+.heading-price p{
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.card-price{
+    margin-top: 84px;
+    width: 250px;
+    background-color: #2356D9;
+    padding: 12px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.tittle-price{
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.tittle-price h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+.tittle-price p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.pricing{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.pricing h1{
+    font-size: 65px;
+    color: #fff;
+}
+
+.pricing p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.feature-list{
+    margin-left: 20px;
+}
+
+.feature-list p{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.feature-list img{
+    margin-right: 4px;
+}
+
+.btn-price{
+    background-color: #2356D9;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 36px;
+    margin-left: 5px;
+}
+
+.btn-price:hover{
+    background-color: #fff;
+    color: #2356D9;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 36px;
+    margin-left: 5px;
 }
