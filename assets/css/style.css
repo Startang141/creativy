@@ -456,3 +456,28 @@ h1 span{
     width: 60%;
     margin-top: 20px;
 }
+
+footer{
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2356D9;
+    padding: 40px 50px;
+    color: #fff;
+}
+
+.logo-place{
+    font-size: 10px;
+}
+
+.pg-1 li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.pg-2 li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+}
