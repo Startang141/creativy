@@ -49,6 +49,8 @@ nav{
     color: #2356D9;
     padding: 9px 19px;
     border-radius: 50px;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .btn-secondary:hover{
@@ -481,3 +483,39 @@ footer{
     list-style: none;
     font-weight: 500;
 }
+
+.form-regis{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-ilus{
+    margin-top: 130px;
+    position: relative;
+}
+
+.form-ilus img{
+    position: absolute;
+}
+
+.img-blender{
+    top: -120px;
+    left: -150px;
+}
+
+.img-asking{
+    top: 400px;
+    left: 300px;
+}
+
+.img-warna{
+    top: 350px;
+    left: -150px;
+}
+/* 
+.header-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
